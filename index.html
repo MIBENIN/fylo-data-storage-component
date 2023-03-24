@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Fylo data storage component</title>
+  <link rel="stylesheet" href="./dist/style.css">
+</head>
+
+<body class="bg-veryDarkBlue font-raleway p-10">
+  
+    <section class="w-full max-w-3xl flex flex-col justify-center items-center gap-4 md:flex-row md:items-end">
+      <!-- file div -->
+      <div class="p-8 bg-darkBlue w-full rounded-lg rounded-tr-4xl md:w-2/4">
+        <!-- logo -->
+       <a href="#">
+        <img src="./images/logo.svg" alt="Logo">
+       </a>
+       <div class="flex gap-6 mt-8">
+        <img src="./images/icon-document.svg" alt="icon-document" class="p-2.5 rounded-md bg-veryDarkBlue">
+        <img src="./images/icon-folder.svg" alt="icon-folder" class="p-2.5 rounded-md bg-veryDarkBlue">
+        <img src="./images/icon-upload.svg" alt="icon-upload" class="p-2.5 rounded-md bg-veryDarkBlue">
+       </div>
+      </div>
+
+      <!-- remaining data div -->
+      <div class="p-8 w-full bg-darkBlue rounded-lg relative md:w-3/4 md:h-36">
+        <h2 class="text-center text-paleBlue md:text-left">You’ve used <span class="font-bold">815 GB</span> of your storage</h2>
+        <div class="bg-veryDarkBlue w-full h-6 rounded-2xl mt-5 p-1 md:mt-3">
+          <div class="w-3/4 h-4 rounded-lg bg-gradient-to-r from-sweetPink to-wildStrawBerry p-0.5 relative">
+            <div class="w-3 h-3 bg-white rounded-full absolute right-0.5"></div>
+          </div>
+        </div>
+        <div class="flex justify-between items-center mt-3 mb-4 md:mb-0 md:mt-0.5">
+          <h3 class="text-paleBlue font-bold">0 GB</h3>
+          <h3 class="text-paleBlue font-bold">1000 GB</h3>
+        </div>
+        <div class="remainingStorageDiv inline-block bg-white rounded-lg py-3 px-4 absolute left-[50%] translate-x-[-50%] md:top-[-24%] md:left-[60%] md:translate-x-0 lg:left-[62%]">
+          <h4 class="text-grayishBlue"><span class="text-veryDarkBlue font-bold text-2xl">185 </span>GB LEFT</h4>
+        </div>
+      </div>
+    </section>
+</body>
+
+</html>
