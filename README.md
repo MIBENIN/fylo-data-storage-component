@@ -4,8 +4,8 @@
 
 ## Live Site
 
-![LiveSite](https://mibenin.github.io/fylo-data-storage-component/)
+[LiveSite](https://mibenin.github.io/fylo-data-storage-component/)
 
 ## Repository
 
-![Repo](https://github.com/MIBENIN/fylo-data-storage-component)
+[Repo](https://github.com/MIBENIN/fylo-data-storage-component)
